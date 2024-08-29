@@ -17,7 +17,8 @@ Step 6 → Creation of deployment and service for EKS
 
 ### $\color{red} \textbf {Step 1 → Login  and  basics  setup}$
 1. Click on launch Instance
-   ![instance](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/5fe51373-eaac-4f7c-9669-34c578277051)
+   ![image](https://github.com/user-attachments/assets/949d4b6e-36ff-40bb-bfad-08ac416305bd)
+
 2. Connect to EC2-Instance
    ![connect-ec2](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/9d518e77-6f65-4153-acfc-790a6eaf669a)
 
