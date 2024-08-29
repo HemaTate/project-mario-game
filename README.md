@@ -98,7 +98,12 @@ kubectl version --client
 ````
 ### $\color{red} \textbf {Step 3 → IAM  Role  for  EC2}$
 create role:
-![role](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/31a05c18-f34b-430d-b5cb-c5873ae6e9c5)
+
+![image](https://github.com/user-attachments/assets/044737b8-d475-47e8-8db4-9a28ad97b826)
+
+![image](https://github.com/user-attachments/assets/5cfb5717-007d-478c-9933-711c3908a480)
+
+
 
 ### $\color{red} \textbf {Step 4 →Attach  IAM  role  with your  EC2 }$
 go to EC2 
@@ -106,9 +111,11 @@ click on actions → security → modify IAM role option
 - administrator access
 - eks
 
-![role-ec2](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/70cc0ebb-6063-4c4b-98df-7259a08749b8)
+![image](https://github.com/user-attachments/assets/fff3d39d-4d50-49ce-bf0e-8031b2e58a31)
 
-![modify-role](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/3e998e21-3654-43b0-8df0-496f009ef0a6)
+
+![image](https://github.com/user-attachments/assets/a1954296-4c47-4620-b009-4683130e5264)
+
 
 ### $\color{red} \textbf {Step 5 → Building Infrastructure  Using  terraform}$
 $\color{blue} \textbf {Install  GIT}$
@@ -119,7 +126,8 @@ cd Project-Super-Mario
 cd EKS-TF
 vim backend.tf
 ````
-![backend tf](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/6b9e648f-2f13-41e8-a66b-6b6e6e0a63de)
+![image](https://github.com/user-attachments/assets/9ac319a9-41a2-411f-aa49-624182a4993c)
+
 
 $\color{blue} \textbf {Create \ Infra:}$
 ````
@@ -147,13 +155,15 @@ kubectl get svc mario-service
 ````
 copy the load balancer ingress and paste it on browser and your game is running
 
-![load balancer](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/d085951d-3398-44ad-b9cd-05c561b74664)
+![image](https://github.com/user-attachments/assets/84bd1878-142e-4a1a-a5d2-5e965985f567)
+
 
 
 
 $\color{green} \textbf {Final Output: Enjoy The Game 🎮}$
 
-![output](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/edfff0b5-6507-48e4-b552-908671b59920)
+![image](https://github.com/user-attachments/assets/51971370-fd00-4a5c-b9d1-2e4c246e612a)
+
 
 **Delete Infra**
 ````
